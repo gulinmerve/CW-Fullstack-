@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="result.html" name="myfirstform" method="">
+        <!-- Form Element, Attributes -->
+        <div>
+            <label> Username: <input type="text" name="Kullanıcı adı" id="username" placeholder="username"> </label>
+            <br> <br>
+            <label for="surname">Surname: </label>
+            <input type="text" name="soyadı" id="surname" placeholder="surname">
+            <br><br>
+        </div>
+        <div>
+            <label>Password: <input type="password" name="şifre" id="password"> </label>
+        </div>
+        <div>
+            <label for="cinsiyet-1">Male: <input type="radio" name="gender" value="male" id="cinsiyet-1" checked> </label>
+            <label for="cinsiyet-2">Female:<input type="radio" name="gender" value="female" id="cinsiyet-2"></label>
+        </div>
+        <div>
+            <label>Araçlarım:</label><br>
+            <input type="checkbox" name="arac" id="arac-1" value="bisiklet">
+            <label for="arac-1">Bisiklet</label>
+            <input type="checkbox" name="arac" id="arac-2" value="araba">
+            <label for="arac-2">Araba</label>
+            <input type="checkbox" name="arac" id="arac-3" value="tekne">
+            <label for="arac-3">Tekne</label>
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" min="18" max="100" placeholder="yaşını giriniz">
+        </div>
+        <div>
+            <label for="gsearch">Search Google:</label>
+            <input type="search" name="search" id="gsearch">
+        </div>
+        <div>
+            <label for="favcolor">Select Your Fav color:</label>
+            <input type="color" name="favcolor" id="favcolor">
+        </div>
+        <div>
+            <label for="birthday">Birthday:</label>
+            <input type="date" name="date" id="birthday" min="1980-01-02" max="2023-01-02">
+        </div>
+        <div>
+            <label for="email">Enter Your E-Mail:</label>
+            <input type="email" name="email" id="email" maxlength="45">
+        </div>
+        <div>
+            <label for="myfile">Select a file:</label>
+            <input type="file" name="file" id="myfile">
+        </div>
+        <div>
+            <label for="phone">Enter Your Phone Number:</label>
+            <input type="tel" name="phone-number" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        </div>
+        <input type="reset">
+        <input type="submit" value="gönder">
+    </form>
+</body>
+</html>

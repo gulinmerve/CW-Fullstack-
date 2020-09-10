@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="result.html" name="myfirstform" method="">
+        <!-- Form Element, Attributes -->
+        <div>
+            <label> Username: <input type="text" name="Kullanıcı adı" id="username"> </label>
+            <br> <br>
+            <label for="surname">Surname: </label>
+            <input type="text" name="soyadı" id="surname">
+            <br><br>
+        </div>
+        <div>
+            <label>Password: <input type="password" name="şifre" id="password"> </label>
+        </div>
+        <div>
+            <label for="cinsiyet-1">Male: <input type="radio" name="gender" value="male" id="cinsiyet-1" checked> </label>
+            <label for="cinsiyet-2">Female:<input type="radio" name="gender" value="female" id="cinsiyet-2"></label>
+        </div>
+        <div>
+            <label>Araçlarım:</label>
+            <br>
+            <input type="checkbox" name="arac-1" id="arac-1" value="bisiklet">
+            <label for="arac-1">Bisiklet</label>
+            <input type="checkbox" name="arac-2" id="arac-2" value="araba">
+            <label for="arac-2">Araba</label>
+            <input type="checkbox" name="arac-3" id="arac-3" value="tekne">
+            <label for="arac-3">Tekne</label>
+        </div>
+        <input type="submit" value="gönder">
+    </form>
+</body>
+</html>
