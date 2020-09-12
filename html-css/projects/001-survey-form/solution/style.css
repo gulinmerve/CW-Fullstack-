@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding:0 ;
+}
+
+body {
+    background-image: url("./images/netflix.jpg");
+    color: white
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 30px 100px;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Bowlby One SC", cursive;
+    padding-top: 15px;
+    letter-spacing: 5px;
+}
+
+span {
+    color: #ff0000;
+}
+
+#description {
+    text-align: center;
+    font-family: "Sorts Mill Goudy", sans-serif;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+#survey-form {
+    width: 500px;
+    height: auto;
+    background-color: rgba(0,0,0,0.8);
+    margin: auto;
+    padding-top: 10px;
+}
+
+#name,
+#number,
+#email,
+#dropdown {
+    margin-top:16px;
+    height: 36px;
+    width: 400px;   
+    /* border: none; koyduk sonra none olmadı kaybolmadı.kaldırdık  */
+}
+#dropdown {
+    box-sizing: content-box;
+    resize: none;
+}
+
+.box{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.text-area {
+    margin-top: 10px;
+}
+
+#submit {
+    background-color: red;
+    font-size: larger;
+    height: 45px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 16px 0px 16px 150px;
+}
+
+#submit:hover {
+    background: white;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
