@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <base href="images/"> -->
+</head>
+<body>
+    <h2>Unordered List</h2>
+    <!-- Listeler İşlenecektir -->
+    <!-- ul>li*5{item $} -->
+    <ul style="list-style-type: circle;"> Item List
+        <li> İtem-1
+            <ul> sub-item 1
+                <li>
+                    item 1
+                </li>
+                <li>item 2</li>
+                <ul>
+                    <li>item4</li>
+                </ul>
+                <li>item 3</li>
+                <li>item 4</li>
+                <li>item 5</li>
+            </ul>
+        </li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ul>
+    <hr>
+    <h2 id="head">Ordered List</h2>
+    <!-- Ordered List/Düzenli Liste -->
+    <ol start="5" type="A">
+        <li>item 1</li>
+        <li>item 2
+            <ol>
+                <li>Sub-item1</li>
+                <li>Sub-item2</li>
+                <li>Sub-item3</li>
+            </ol>
+        </li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ol>
+    <h2>Definition List</h2>
+    <dl>
+        <dt>Scale</dt>
+        <dd>A device used to accurately measure the
+            weight of ingredients</dd>
+        <dt>Sashimi</dt>
+        <dd>Sliced raw fish that is served with
+            condiments such as shredded daikon radish or
+            ginger root, wasabi and soy sauce</dd>
+    </dl>
+    <h3>Images</h3>
+    <img src="barney.png" alt="Barney" width="100">
+    <img src="https://upload.wikimedia.org/wikipedia/tr/b/bb/Fred_%C3%87akmakta%C5%9F.jpg" alt="Fred Cakmaktas"
+        width="50">
+    <h3>Tables</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Kurs Adı</th>
+                <th>Kurs Saati</th>
+                <th>Ders Adedi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>45</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>35</td>
+                <td rowspan="2">200</td>
+            </tr>
+            <tr>
+                <td colspan="2">JavaScript</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Toplam</td>
+                <td>500</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h2>Links</h2>
+    <a href="https://www.imdb.com/" target="_blank">IMDB</a>
+    <br>
+    <a href="../HTML/Uygulama_Calismasi_2.html">Başka çalışma</a>
+    <br>
+    <a href="index2.html">index2html</a>
+    <br>
+    <a href="uygulama_caliması.rar" target="_blank" >İndir</a><br>
+    <a href="uygulama_caliması.html"><img src="./images/barney.png" width="50"</a>
+    <br>
+    <a href="#head">Başa Dön</a>
+
+</body>
+</html>

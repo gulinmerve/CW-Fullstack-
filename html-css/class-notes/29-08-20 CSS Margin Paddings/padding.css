@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 5px dotted rgb(0,255,255);
+    padding: 20px;
+    background-color: salmon;
+}
+
+p {
+    border: 5px solid #ffff00;
+    background-color: skyblue;
+    /* padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding:15px 20px 20px 20px;
+    padding: 15px 20px 30px; */
+    padding: inherit;
+}
+
+/* her yazdığınızda reset.css kodu var.Kullanılan */
+/* * {
+    margin: 0;
+    /* padding: 0; */
+/* } */ */
+
+/* (Sağdan soldan bütün boşlukları sıfırlar) */

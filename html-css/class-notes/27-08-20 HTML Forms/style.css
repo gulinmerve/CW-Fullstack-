@@ -1,0 +1,37 @@
+
+/* color name */
+#kutu1 {
+    color: blue;
+    border-style: dashed;
+    border-color: salmon;
+    border-width: 5px;
+    border: 5px dashed saddlebrown;
+}
+/* rgb value */
+#kutu2 {
+    color: rgb(0, 0, 255);
+    border: 5px dotted green;
+}
+
+/* hex value */
+#kutu3 {
+    color: #0000FF;
+    border-top: 5px solid #ff00ff;
+    border-left: 10px groove #0000FF;
+    border-right: 10px ridge #4400ff;
+    border-bottom: 15px outset #10ef34;
+    border-radius: 20px;
+}
+
+/* hsl value */
+#kutu4 {
+    color: hsl(240, 100%, 50%);    
+}
+
+#kutu5 {
+    color: rgba(0, 0, 255, 1.0);
+}
+
+#kutu6 {
+    color: hsla(240, 100%, 50%, 0.3);
+}

@@ -1,0 +1,14 @@
+h1 {
+    background-color: red;
+    opacity: 0.3;
+}
+p {
+    background-color: rgba(0, 255, 0, 0.3)
+}
+img {
+    width: 150px;
+    opacity: 0.5;
+}
+img:hover {
+    opacity: 1;
+}

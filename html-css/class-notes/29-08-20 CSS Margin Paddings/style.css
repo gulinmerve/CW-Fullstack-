@@ -1,0 +1,30 @@
+#texts1{
+    color: red;
+    text-align: left;
+    text-decoration: overline underline wavy;
+}
+
+#texts2{
+    color:blue;
+    text-align: right;
+    text-decoration: overline underline solid;
+}
+
+#texts3{
+    color: rgba(9,12,159,0.8);
+    text-align: justify;
+    text-decoration: line-through;
+}
+
+#texts4{
+    color: hsla (120, 60%,70%,0.3);
+    text-align:center;
+    text-decoration-color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#texts5 {
+    color: greenyellow;
+    text-shadow: 2px 2px 2px black;
+}

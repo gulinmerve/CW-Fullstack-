@@ -1,0 +1,24 @@
+/* /* ul {
+    /* /* list-style-image: url("/images/sqpurple.gif");
+    list-style-position: inside;
+    /* background-color: chartreuse; */
+    /* list-style: square inside; */ */
+   /* */
+   /* list-style-type: none;
+}
+
+li {
+    border: 1px solid black;
+     
+} 
+
+li:before {
+}
+
+li:before {
+    content: "\2764";
+   color: blue;  */
+
+#list li::before {
+        content: "😉";
+}

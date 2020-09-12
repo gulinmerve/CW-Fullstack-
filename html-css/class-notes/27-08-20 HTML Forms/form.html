@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    
+    <form action="result.html" method="GET" name="myform">
+        <div>
+            <label for="cars" multiple>Choose a car : </label>
+            <br>
+            <select name="cars" id="cars" multiple size="2">
+            <!-- <select name="cars" id="cars"> -->
+                <option value="disabled selected value"></option>
+                <option value="Porsche">Porsche</option>
+                <option value="Maserati">Maserati</option>
+                <option value="BMW">BMW</option>
+                <option value="Audi">Audi</option>
+                <option value="Tesla">Tesla</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="t-area">Comment here.</label><br>
+            <textarea name="message" id="t-area" style="width=200px; height: 200px;" maxlength="50">Enter text</textarea>
+            <!-- <textarea name="message" id="t-area" cols="20" rows="15"></textarea> -->
+        </div>
+        <div>
+            <label for="browsers">Browsera:</label>
+            <input type="text" list="browsers" name="options">
+            <datalist id="browsers" >
+                <option value="firefox"></option>
+                <option value="chrome"></option>
+                <option value="safari"></option>
+                <option value="opera"></option>
+                <option value="ie"></option>
+            </datalist>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Personal Info</legend>
+                <label for="fname">First Name: </label>
+                <br>
+                <input type="text" name="fname" id="fname" value="merve"><br>
+                <label for="lname">Last Name: </label>
+                <br>
+                <input type="text" name="lname" id="lname" value="eker">
+            </fieldset>
+        </div>
+
+        <input type="submit" value="Send">
+
+    </form>
+</body>
+</html>
+
+<!-- datalist te kendimiz yazma imkanı var selectten farkı bu.Bİr de input type ile kullanılır datalist -->
+<!-- <<textarea style="resize: none;"></*textarea*> kutunun boyutu sabitler -->

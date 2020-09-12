@@ -1,0 +1,26 @@
+p {
+    border: 1px solid blue;
+    padding: 5px;
+}
+
+.clear {
+    clear: left;
+    /* margin: 50px; */
+}
+
+img {
+    width: 200px;
+    /* float: left; */
+
+}
+
+
+
+
+
+
+/* position-float farkı---her iki durumda da katmansal bir durum olusuyor ancak position durumunda nesne digerleri ile etkilesim halinde olmuyor tamamen bagimsizlasiyor. Ancak float durumunda adindan da anlasilacagi gibi diger elemenlerin uzerinde sanki yuzuyor gibi hareket ediyor. Diger elementlerin contentleri ile karsilastigi zaman bir etki doguruyor. */
+
+
+
+/* absolute oldugunda o nesne en üst katmanda istedigini yapiyor, istedigi yere gidiyor, ama float ta nesneler birbirinden etkileniyor */

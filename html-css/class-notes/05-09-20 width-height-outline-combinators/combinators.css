@@ -1,0 +1,10 @@
+/* p + p {
+    background-color: mediumaquamarine;
+} */
+
+
+/* p elementinden sonra gelen p yi işaretler */
+
+div ~ p {
+    background-color: mediumaquamarine;
+}

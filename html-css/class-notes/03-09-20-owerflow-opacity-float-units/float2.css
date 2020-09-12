@@ -1,0 +1,29 @@
+#container{
+    background-color: gray;
+    /* overflow: auto; */
+}
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+/* .clear {
+    clear: both;
+} */
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#first {
+    background-color: red;
+    float: left;
+}
+#second {
+    background-color: blue;
+    float: left;
+}
+#third {
+    background-color: green;
+    float: left;
+}

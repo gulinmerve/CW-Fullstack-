@@ -1,0 +1,44 @@
+div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("https://picsum.photos/800/600?random=1"), rgba(0, 0, 0, 0.5);
+    /* ,url("https://picsum.photos/800/600?random=2"); */
+    background-size: cover;
+    background-blend-mode: multiply;
+    /* background-blend-mode: lighten; */
+  }
+
+  .container {
+    height: 90vh;
+    border: 4px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px auto 50px;
+    gap: 15px;
+    grid-template-areas:
+      "navbar navbar navbar"
+      "sidebar . main"
+      "footer footer footer";
+  }
+  #item1 {
+    grid-area: navbar;
+  }
+  #item2 {
+    grid-area: sidebar;
+  }
+  #item3 {
+    grid-area: main;
+  }
+  #item4 {
+    grid-area: footer;
+  }
+  .item {
+    height: 100%;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

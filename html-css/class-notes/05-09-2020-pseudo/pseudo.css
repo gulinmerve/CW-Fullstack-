@@ -1,0 +1,29 @@
+
+a:link {
+    color: red;
+}
+
+a:hover{
+    color: aqua;
+}
+
+a:visited {
+    color:black;
+}
+
+/* !!!!!!ÇOK ÖNEMLİ */
+p {
+    display: none;
+    background-color: yellow;
+    padding: 20px; 
+}
+div:hover + p {
+    display: block;
+}
+
+/* hover linkten önce çalışmadı. */
+/* sıralamayı LeVHA olarak aklımızda tutabiliriz */
+
+/* var tabiki,  Pseudo Elements; etiket içindeki bir parçaya ulaşmak için. örneğin p içindeki ilk satıra ulaşmak için. p :: first-line { color:white;} 2 nokta ile ulaşıyoruz dikkat ederseniz. Pseudo Class: bir kapsam içinden bir eleman seçerken kullanılır. Örn: ul altında 3 tane li var düşünün. bunun ilk ve son elemanına ulaşmak için tek nokta kullanarak ulaşacağız. ul li : first-child { color:black;} ya da ul li : last-child { color:purple;} burda da tek olarak iki nokta üst üste kullandık. */
+
+/* According to W3C a:link is for not visited, a:visited is for visited, and just a applies to both. */

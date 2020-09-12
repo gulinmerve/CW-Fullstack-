@@ -1,0 +1,4 @@
+Ikinci bilinmesi gereken husus ise 
+eger link, hover, visited ve active property’lerine atama yapilacak ise bu sira ile tanimlama yapilmalidir. Aksi durumda kimi durumlarda css’in calismadigi durumlar olacaktir. Bu durumun onune gecmek icin daha isin basindan bu sira ile atama yapilmalidir.
+ Bu duruma sebep olan durum ise visited pseudo class’inin digerlerini eziyor olmasidir. Bu nedenle visited pseudo-class’i link’ten sonra hover’dan once gelmelidir. 
+Bu siralama LVHA seklinde ozetlenebilir.
