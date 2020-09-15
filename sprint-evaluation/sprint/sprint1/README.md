@@ -1,5 +1,4 @@
-# Sprint-1-ClubPage-
-HTML/CSSGrid-Flexbox-WhoWeAre?
-Link is here:
+# Sprint 1
 
-https://gulinmerve.github.io/Sprint-1-ClubPage-/
+
+  [Sprint-1 Assignment](https://github.com/clarusway/cw-fs-workshop/blob/master/sprint-evaluation/sprint/sprint1/assignment-html-css.pdf)
