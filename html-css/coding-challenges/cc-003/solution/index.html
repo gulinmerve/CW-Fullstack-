@@ -1,1 +1,124 @@
-{\rtf1}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Checkout</h1>
+    <section>
+        <form action="result.html">
+            <div class="form">
+                <h3>Contact Information</h3>
+                <label for="email">Email</label><br>
+                <div class="icon-position">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" name="email" placeholder="Enter your email.." required>
+                </div>
+                <label for="phone">Phone</label><br>
+                <div class="icon-position">
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone" required>
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+            </div>
+            <div class="form">
+                <h3>Shipping address</h3>
+                <label for="name">Full name</label><br>
+                <div class="icon-position">
+                    <input type="text" id="name" name="name" placeholder="Enter your Full name..." required>
+                    <i class="fas fa-user"></i><br>
+                </div>
+                <label for="adress">Adress</label><br>
+                <div class="icon-position">
+                    <input type="text" name="adress" id="adress" placeholder="Enter your address..." required>
+                    <i class="fas fa-home"></i><br>
+                </div>
+                <label for="city">City</label><br>
+                <div class="icon-position">
+                    <input type="text" name="city" id="city" placeholder="Enter your city..." required>
+                    <i class="fas fa-city"></i>
+                </div>
+            </div>
+            <div class="form country-form">
+                <div class="country-select">
+                    <label for="country">Country</label><br>
+                    <div class="icon-position">
+                        <select name="country" id="country">
+                            <option value="Turkey" selected>Turkey</option>
+                            <option value="Germany" selected>Germany</option>
+                            <option value="USA" selected>USA</option>
+                            <option value="Canada" selected>Canada</option>
+                            <option value="UK" selected>UK</option>
+                        </select>
+                        <i class="fas fa-globe-europe"></i>
+                    </div>
+                </div>
+                <div class="post-code-select">
+                    <label for="post-code">Post Code</label> <br>
+                    <div class="icon-position">
+                        <input type="number" name="post-code" id="post-code" placeholder="Enter your postal code...">
+                        <i class="fas fa-mail-bulk"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="form-checkbox">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <p style="color: #4f4f4f;
+                font-size: 0.75em; display: inline ;">See this information next time</p>
+            </div>
+            <button id="continue" value="continue">Continue</button>
+        </form>
+        <div class="shopping">
+            <div class="vintage">
+                <img src="./IMG/photo1.png" alt="backbag">
+                <div class="vintage-money">
+                    <h4>Vintage Backpack</h4>
+                    <p><span style="color: #f2994a;
+                    font-weight: 600;">$54.99</span> <del> <small>$94.99</del> </small> </p>
+                    <div class="plusandminus">
+                        <button type="submit" class="minus">-</button>
+                        <span class="minus-plus">1</span>
+                        <button type="submit" class="plus">+</button>
+                    </div>
+                    <!-- <p><i class="fas fa-minus" id="minus"></i></i>1 <i class="fas fa-plus" id="plus"></i></i></p> -->
+                </div>
+            </div>
+            <div class="shoes">
+                <img src="./IMG/photo2.png" alt="levi-shoes">
+                <div class="shoes-money">
+                    <h4>Levi Shoes</h4>
+                    <p> <span style="color: #f2994a;
+                    font-weight: 600;">$74.99 </span> <del> <small> $124.99</del> </small></p>
+                    <div class="plusandminus">
+                        <button type="submit" class="minus">-</button>
+                        <span class="minus-plus">1</span>
+                        <button type="submit" class="plus">+</button>
+                    </div>
+                    <!-- <p><i class="fas fa-minus" id="minus-shoes"></i></i>1<i class="fas fa-plus" id="plus-shoes"></i></i></p> -->
+                </div>
+            </div>
+
+            <div class="shipping">
+                <p>Shipping</p>
+                <p>$19</p>
+            </div>
+            <div class="total">
+                <p>Total</p>
+                <p>$148.98</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
