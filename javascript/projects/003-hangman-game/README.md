@@ -1,16 +1,16 @@
-# Project-006 : Calculator (JS-02)
+# Project-007 : Hangman Game (JS-03)
 
 ## Description
-Project aims to create a calculator.
+Project aims to create a hangman game.
 
 ## Problem Statement
 
-- Your company has recently started on a project that aims to create a calculator. So you and your colleagues have started to work on the project.
+- Your company has recently started on a project that aims to create a hangman game. So you and your colleagues have started to work on the project.
 
 ## Project Skeleton 
 
 ```
-001-calculator(folder)
+001-hangman-game(folder)
 |
 |----readme.md         # Given to the students (Definition of the project)          
 |----solution
@@ -21,11 +21,11 @@ Project aims to create a calculator.
 
 ## Expected Outcome
 
-![Project 002 Snapshot](Project_002_.png)
+![Project 003 Snapshot](Project_003_.png)
 
 ## Objective
 
-Build a Calculator that is functionally similar to this: [Calculator]( https://codepen.io/AaronClarusway/full/KKzRdvo)
+Build a Hangman Game that is functionally similar to this: [Hangman](https://codepen.io/AaronClarusway/full/yLOQBdd)
 
 ### At the end of the project, following topics are to be covered;
 
@@ -64,11 +64,27 @@ Build a Calculator that is functionally similar to this: [Calculator]( https://c
 
 >Part-3 JS Structure
 
-	- Create code for calculator
+	- Create code for hangman game
 	
 - Step 4: Push your application into your own public repo on Github
 
 - Step 5: Deploy your application on Github template to showcase your app within your team.
+
+## Notes
+
+- Display hangman pole and figure using SVG
+
+- Generate a random word
+
+- Display word in UI with correct letters
+
+- Display wrong letters
+
+- Show notification when select a letter twice
+
+- Show popup on win or lose
+
+- Play again button to reset game
 
 
 ## Happy coding 💪

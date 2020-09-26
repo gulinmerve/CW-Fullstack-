@@ -1,16 +1,16 @@
-# Project-005 : Find the Number Game (JS-02)
+# Project-008 : Richest Person List (JS-04)
 
 ## Description
-Project aims to create find the number game (between 0 to 100).
+Project aims to create richest person list and wealthy.
 
 ## Problem Statement
 
-- Your company has recently started on a project that aims to create a find the number game. So you and your colleagues have started to work on the project.
+- Your company has recently started on a project that aims to create a richest person list adn wealthy. So you and your colleagues have started to work on the project.
 
 ## Project Skeleton 
 
 ```
-001-find-number(folder)
+001-richest-person-list(folder)
 |
 |----readme.md         # Given to the students (Definition of the project)          
 |----solution
@@ -21,11 +21,11 @@ Project aims to create find the number game (between 0 to 100).
 
 ## Expected Outcome
 
-![Project 001 Snapshot](Project_001_.png)
+![Project 004 Snapshot](Project_004_.png)
 
 ## Objective
 
-Build a Find the Number Game (Between 0 to 100) that is functionally similar to this: [Find the Number Game]( https://aaron-clarusway.github.io/findnumber/)
+Build a Calculator that is functionally similar to this: [Richest Person List]( https://codepen.io/AaronClarusway/full/BaKGaoq)
 
 ### At the end of the project, following topics are to be covered;
 
@@ -64,12 +64,25 @@ Build a Find the Number Game (Between 0 to 100) that is functionally similar to 
 
 >Part-3 JS Structure
 
-	- Create code for find the number between 0 to 100
+	- Create code for listing richest person
 	
 - Step 4: Push your application into your own public repo on Github
 
 - Step 5: Deploy your application on Github template to showcase your app within your team.
 
+## Notes
+
+- Fetch random users from the randomuser.me API
+
+- Use forEach() to loop and output user/wealth 
+
+- Use map() to double wealth 
+
+- Use filter() to filter only millionaires
+
+- Use sort() to sort by wealth
+
+- Use reduce() to add all wealth
 
 ## Happy coding 💪
 

@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #9796f0, #fbc7d4);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    justify-content: center;
+    align-content: center;
+    /* min-height: 100vh; */
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    gap: 1px 1px;
+    grid-template-areas:
+      "result result result result"
+      "AC AC DEL div"
+      "A1 A2 A3 multip"
+      "A4 A5 A6 add"
+      "A7 A8 A9 subt"
+      "dot A0 equals equals";
+}
+.grid-container > button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+}
+  
+  .grid-container > button:hover{
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.result {
+    grid-area: result;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.first_line{
+    font-size: 1.5rem;
+    color: #ffffffBF;
+}
+  
+  .second_line{
+    color: white;
+    font-size: 2.5rem;
+}
+
+#AC {
+    grid-area: AC;
+  }
+  #DEL {
+    grid-area: DEL;
+  }
+  #div {
+    grid-area: div;
+  }
+  #A1 {
+    grid-area: A1;
+  }
+  #A2 {
+    grid-area: A2;
+  }
+  #A3 {
+    grid-area: A3;
+  }
+  #multip {
+    grid-area: multip;
+  }
+  #A4 {
+    grid-area: A4;
+  }
+  #A5 {
+    grid-area: A5;
+  }
+  #A6 {
+    grid-area: A6;
+  }
+  #add {
+    grid-area: add;
+  }
+  #A7 {
+    grid-area: A7;
+  }
+  #A8 {
+    grid-area: A8;
+  }
+  #A9 {
+    grid-area: A9;
+  }
+  #subt {
+    grid-area: subt;
+  }
+  #dot {
+    grid-area: dot;
+  }
+  #A0 {
+    grid-area: A0;
+  }
+  #equals {
+    grid-area: equals;
+  }
