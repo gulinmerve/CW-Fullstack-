@@ -1,0 +1,25 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(360, 71%, 66%);;
+}
+
+
+h1{
+  padding: 20px;
+  color: black;
+  font-size: bold;
+  font-family: 'Sansita Swashed', cursive;
+  text-align: center;
+}
+
+body {
+    font-family: var(--ff-secondary);
+    background: var(--clr-grey-10);
+    color: var(--clr-grey-1);
+    line-height: 1.5;
+    font-size: 0.875rem;
+  }
