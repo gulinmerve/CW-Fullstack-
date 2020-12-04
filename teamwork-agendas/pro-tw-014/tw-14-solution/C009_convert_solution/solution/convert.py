@@ -1,4 +1,4 @@
-# import unittest
+
 
 def bin2dec(binStr):  # binStr is in str type
     bits = list(binStr)
