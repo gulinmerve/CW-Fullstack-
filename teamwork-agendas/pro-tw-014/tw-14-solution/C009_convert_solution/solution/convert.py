@@ -1,4 +1,4 @@
-
+import testunit
 
 def bin2dec(binStr):  # binStr is in str type
     bits = list(binStr)
@@ -31,7 +31,7 @@ print(dec2bin(14))
 
 # # *** Tests ***
 
-
+# import testunit
 # class Test(unittest.TestCase):
 #     def test_bin2dec_zero(self):
 #         desc = "with zero"
