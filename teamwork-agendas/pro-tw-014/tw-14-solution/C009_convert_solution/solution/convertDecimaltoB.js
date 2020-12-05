@@ -1,4 +1,4 @@
-let binStr = "1110";
+let binStr = "1100";
 let value = 0 ;
 function bin2dec(binStr) {
   for (let i = 0; i < binStr.length; i++) {
