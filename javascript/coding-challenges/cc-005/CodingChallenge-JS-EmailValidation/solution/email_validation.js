@@ -10,4 +10,4 @@ function email_val(email) {
   }
 }
 
-email_val("ed@ed.co");
+email_val("gulin@ed.co");
