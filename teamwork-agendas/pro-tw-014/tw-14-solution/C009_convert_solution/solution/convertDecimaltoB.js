@@ -1,27 +1,12 @@
-let input  = 14;
-let result = decimalToBinary(input);
-    
-
-function decimalToBinary(input) {
-    let quotient       = 0;
-    let remainderArray = [];
-    let resultArray    = [];
-
-    if (input) {
-        while (input) {
-            quotient = parseInt(input / 2);
-
-            remainderArray.push(input % 2);
-
-            input = quotient;
-        }
-        for (let i = remainderArray.length - 1; i >= 0; i--) {
-            resultArray.push(remainderArray[i]); 
-        }
-        return parseInt(resultArray.join(''));
-    } else {
-        return `${input} is not a valid input`;
-    }
+let binStr = "1110";
+let value = 0 ;
+function bin2dec(binStr) {
+  for (let i = 0; i < binStr.length; i++) {
+    let currNum = binStr[binStr.length - i - 1];
+    // console.log(currNum)
+    value = value + 2 ** i * currNum
+    console.log(value)
+  }
+  return value;
 }
-
-console.log(decimalToBinary(input));
+console.log(bin2dec(binStr));
